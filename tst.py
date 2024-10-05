@@ -1,8 +1,10 @@
-a = int(100.14)
-print(a)
-b = '''
-'''
-x = [1, 2, 3]
-y = [4, 5, 6]
-x.append(y)
+x = 1
+x = x + 1
+if x <= 2:
+    x = x + 1
+else:
+    x = x - 1
 print(x)
+
+
+
